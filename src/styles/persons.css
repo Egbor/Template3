@@ -1,0 +1,25 @@
+.search-form {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.search-form .form-control {
+  	box-shadow: none;
+  	border-top-right-radius: 0;
+  	border-bottom-right-radius: 0;
+}
+
+.search-form .form-control:focus {
+	padding-top: 4px;
+	border-width: 2px;
+	border-color: #0D6EFD;
+}
+
+.btn {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.list-group {
+	width: 100%;
+}
