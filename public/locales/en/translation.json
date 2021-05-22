@@ -1,0 +1,19 @@
+{
+    "searchbar": {
+        "placeholder": "Search"
+    },
+
+    "button": {
+        "read": "Read"
+    },
+
+    "home": {
+        "welcom": "Welcom",
+        "about": "About site"
+    },
+
+    "navbar": {
+        "persons": "Persons",
+        "about": "About"
+    }
+}

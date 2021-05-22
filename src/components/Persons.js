@@ -7,7 +7,9 @@ import { ListGroup } from 'react-bootstrap';
 import "../styles/common.css";
 import "../styles/persons.css";
 
-class Persons extends React.Component {
+import Translatable from './Translatable'
+
+class Persons extends Translatable {
     matchPerson(source, item) {
         let sourceString = source.trim().toLowerCase();
         let personString = item.getElementsByTagName("a")[0].innerHTML.trim().toLowerCase();
@@ -77,7 +79,7 @@ class Persons extends React.Component {
                 <Container>
                     <Row>
                         <div className="search-form input-group justify-content-center">
-                            <Form.Control type="search" id="form1" placeholder="serach" onChange={(e) => this.onChangeSearchBox(e)} onKeyUp={(e) => this.onKeyUpSearchBox(e)}/>
+                            <Form.Control type="search" id="form1" placeholder={this.translate("searchbar.placeholder")} onChange={(e) => this.onChangeSearchBox(e)} onKeyUp={(e) => this.onKeyUpSearchBox(e)}/>
                             <span>
                                 <Button className="btn btn-primary" onClick={(e) => this.onClickSearchButton(e)}>
                                     <i className="fa fa-search" aria-hidden="true"></i>

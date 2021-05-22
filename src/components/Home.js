@@ -1,11 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Container } from 'react-bootstrap';
 import {Row, Col} from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import "../styles/common.css";
 
-class Home extends React.Component {
+import Translatable from './Translatable'
+
+class Home extends Translatable {
     render() {
         return (
             <div className="home-wrapper">
@@ -13,8 +14,8 @@ class Home extends React.Component {
                     <Container className="h-100">
                         <Row className="h-100">
                             <Col className="my-auto">
-                                <h1>Welcom</h1>
-                                <h3>About site</h3>
+                                <h1>{this.translate("home.welcom")}</h1>
+                                <h3>{this.translate("home.about")}</h3>
                             </Col>
                         </Row>
                     </Container>
@@ -23,7 +24,7 @@ class Home extends React.Component {
                 <Container className="h-100">
                         <Row className="h-100 align-items-center">
                             <Col md="3" className="my-auto">
-                                <img src="https://globalimpactnetwork.org/wp-content/themes/globalimpact/images/no-image-found-360x250.png" class="w-100" alt="Image"/>
+                                <img src="https://globalimpactnetwork.org/wp-content/themes/globalimpact/images/no-image-found-360x250.png" className="w-100" alt="Image"/>
                             </Col>
                             <Col md>
                                 <Row>
@@ -32,7 +33,7 @@ class Home extends React.Component {
                                 </Row>
                                 <Row>
                                     <p className="w-100 text-left">Short information</p>
-                                    <Button className="btn btn-primary w-25 ml-auto">Read</Button>
+                                    <Button className="btn btn-primary w-25 ml-auto">{this.translate("button.read")}</Button>
                                 </Row>
                             </Col>
                         </Row>

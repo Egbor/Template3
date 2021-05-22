@@ -1,0 +1,19 @@
+{
+    "searchbar": {
+        "placeholder": "Поиск"
+    },
+
+    "button": {
+        "read": "Читать"
+    },
+
+    "home": {
+        "welcom": "Добро пожалывать",
+        "about": "Немного о сайте"
+    },
+
+    "navbar": {
+        "persons": "Деятели",
+        "about": "О нас"
+    }
+}
