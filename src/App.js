@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import Home from './components/Home';
+import Person from './components/Person'
 import Persons from './components/Persons';
 import Footer from './components/Footer';
 import './App.css';
@@ -15,6 +16,7 @@ function App() {
       <Switch>
         <Route exact path='/' render={() => <Home t={t} i18n={i18n}/>}/>
         <Route path="/persons" render={() => <Persons t={t} i18n={i18n}/>}/>
+        <Route path="/person" render={() => <Person t={t} i18n={i18n}/>}/>
       </Switch>
       <Footer />
     </div>

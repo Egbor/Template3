@@ -15,5 +15,33 @@
     "navbar": {
         "persons": "Persons",
         "about": "About"
+    },
+
+    "persons": {
+        "person_1": {
+            "name": "Person 1",
+            "surname": "Surname Person 1",
+            "yol": "Years of live Person 1"
+        },
+        "person_2": {
+            "name": "Person 2",
+            "surname": "Surname Person 2",
+            "yol": "Years of live Person 2"
+        },
+        "person_3": {
+            "name": "Person 3",
+            "surname": "Surname Person 3",
+            "yol": "Years of live Person 3"
+        },
+        "person_4": {
+            "name": "Person 4",
+            "surname": "Surname Person 4",
+            "yol": "Years of live Person 4"
+        },
+        "person_5": {
+            "name": "Person 5",
+            "surname": "Surname Person 5",
+            "yol": "Years of live Person 5"
+        }
     }
 }

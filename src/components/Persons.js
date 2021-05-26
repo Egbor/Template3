@@ -7,7 +7,8 @@ import { ListGroup } from 'react-bootstrap';
 import "../styles/common.css";
 import "../styles/persons.css";
 
-import Translatable from './Translatable'
+import PersonsList from './PersonsList';
+import Translatable from './Translatable';
 
 class Persons extends Translatable {
     matchPerson(source, item) {
@@ -88,14 +89,7 @@ class Persons extends Translatable {
                         </div>
                     </Row>
                     <Row>
-                        <ListGroup variant="flush" id="personslist">
-                            <ListGroup.Item className="text-left"><a href="#person">Person 1</a></ListGroup.Item>
-                            <ListGroup.Item className="text-left"><a href="#person">Person 2</a></ListGroup.Item>
-                            <ListGroup.Item className="text-left"><a href="#person">Person 3</a></ListGroup.Item>
-                            <ListGroup.Item className="text-left"><a href="#person">Person 4</a></ListGroup.Item>
-                            <ListGroup.Item className="text-left"><a href="#person">Perosn 15</a></ListGroup.Item>
-                            <ListGroup.Item className="text-left"><a href="#person">Test</a></ListGroup.Item>
-                        </ListGroup>
+                        <PersonsList id="personslist" t={this.props.t} i18n={this.props.i18n}/>
                     </Row>
                 </Container>
             </section>
