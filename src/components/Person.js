@@ -36,6 +36,7 @@ class Person extends Translatable {
                     {/* <Image src={this.translate("persons." + personId + ".photo")}/>
                     <p>{this.translate("persons." + personId + ".name")}</p>
                     <p>{this.translate("persons." + personId + ".yol")}</p> */}
+                    <img src={this.translate("persons." + personId + ".photo")} alt={"person"}/>
                     <Timeline>
                         {this.translate("persons." + personId + ".biography", { returnObjects: true }).map(this.renderBiographyItem, this)}
                     </Timeline>

@@ -1,88 +1,234 @@
 {
-    "searchbar": {
-        "placeholder": "Search"
+  "searchbar": {
+    "placeholder": "Search"
+  },
+  "button": {
+    "read": "Read"
+  },
+  "home": {
+    "welcom": "Welcom",
+    "about": "About site"
+  },
+  "navbar": {
+    "persons": "Persons",
+    "about": "About"
+  },
+  "footer": {
+    "developer1": {
+      "name": "Yegor Borsukov",
+      "contributer": "Contributer"
     },
-
-    "button": {
-        "read": "Read"
-    },
-
-    "home": {
-        "welcom": "Welcom",
-        "about": "About site"
-    },
-
-    "navbar": {
-        "persons": "Persons",
-        "about": "About"
-    },
-
-    "footer": {
-        "developer1": {
-            "name": "Yegor Borsukov",
-            "contributer": "Contributer"
-        },
-        "developer2": {
-            "name": "Kristina Sementsova",
-            "contributer": "Contributer"
-        }
-    },
-
-    "persons": {
-        "Lenina_Mironova": {
-            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Lenina_Mironova.jpg/400px-Lenina_Mironova.jpg",
-            "name": "Lenina Mironova",
-            "yol": "March 2, 1931 - present",
-            "biography": [
-                {
-                    "year": "2 марта 1931",
-                    "contentText": "Ленина Николаевна Миронова радилась 2 мая 1931 года в Украине в городе Харьков"
-                }
-            ]
-        },
-        "Giuseppe_de_Sacco": {
-            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG/274px-%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG",
-            "name": "Giuseppe de Sacco",
-            "yol": "1735 - 1798",
-            "biography": [
-                {
-                    "year": "2 марта 1931",
-                    "contentText": "Ленина Николаевна Миронова радилась 2 мая 1931 года в Украине в городе Харьков"
-                }
-            ]
-        },
-        "Victor_Karako": {
-            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Karako_Victor.jpg/274px-Karako_Victor.jpg",
-            "name": "Victor Karako",
-            "yol": "July 29, 1948 - present",
-            "biography": [
-                {
-                    "year": "2 марта 1931",
-                    "contentText": "Ленина Николаевна Миронова радилась 2 мая 1931 года в Украине в городе Харьков"
-                }
-            ]
-        },
-        "Vladimir_Korol": {
-            "photo": "https://upload.wikimedia.org/wikipedia/ru/7/7c/Karol_VA.jpg",
-            "name": "Vladimir Korol",
-            "yol": "December 14, 1912 - May 28, 1980",
-            "biography": [
-                {
-                    "year": "2 марта 1931",
-                    "contentText": "Ленина Николаевна Миронова радилась 2 мая 1931 года в Украине в городе Харьков"
-                }
-            ]
-        },
-        "Leonid_Levin": {
-            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Levin_Leonid_Mendele.jpg/180px-Levin_Leonid_Mendele.jpg",
-            "name": "Leonid Levin",
-            "yol": "July 25, 1936 - March 1, 2014",
-            "biography": [
-                {
-                    "year": "2 марта 1931",
-                    "contentText": "Ленина Николаевна Миронова радилась 2 мая 1931 года в Украине в городе Харьков"
-                }
-            ]
-        }
+    "developer2": {
+      "name": "Kristina Sementsova",
+      "contributer": "Contributer"
     }
+  },
+  "persons": {
+    "Lenina_Mironova": {
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Lenina_Mironova.jpg/400px-Lenina_Mironova.jpg",
+      "name": "Lenina Mironova",
+      "yol": "March 2, 1931 — present",
+      "biography": [
+        {
+          "year": "March 2, 1931",
+          "contentText": "Lenina Nikolaevna Mironova radialized on May 2, 1931 in Ukraine, in the city of Kharkov."
+        },
+        {
+          "year": "1954",
+          "contentText": "Graduated from the architectural faculty of the Kiev Civil Engineering Institute with honors."
+        },
+        {
+          "year": "1954",
+          "contentText": "Moved to Minsk."
+        },
+        {
+          "year": "1957 — 1960",
+          "contentText": "She studied in graduate school at the Academy of Sciences of the BSSR in the specialty \"architecture\"."
+        },
+        {
+          "year": "1954 — 1957",
+          "contentText": "She was a senior architect of the Mingorproject Institute."
+        },
+        {
+          "year": "1961 — 1968",
+          "contentText": "She was a senior architect at the Institute of Civil Engineering and Architecture."
+        },
+        {
+          "year": "Autumn 1968",
+          "contentText": "She began to teach her course \"Coloristics\" simultaneously at 4 departments of the Belarusian Theater and Art Institute: interior and equipment, design, arts and crafts and artistic processing of fabrics."
+        }
+      ]
+    },
+    "Giuseppe_de_Sacco": {
+      "photo": "https://lh3.googleusercontent.com/proxy/zg2jwqJS9Lsrf6eRY7G1EEwVc-i2yx3k_DTRLvsS2IzCDVHzlwCd0Jm1jNoNqJy1Ug5RYUZt90_Q8NZ5XrCemk8ZMF3Y1Y2_YMLUJCpI",
+      "name": "Giuseppe de Sacco",
+      "yol": "1735 — 1798",
+      "biography": [
+        {
+          "year": "1768",
+          "contentText": "Giuseppe de Sacco was invited to Warsaw, where he was engaged in the artistic hearse (castrum doloris) of Queen Maria Leszczynska and the project of rebuilding the Church of St. John."
+        },
+        {
+          "year": "1771",
+          "contentText": "Became the architect of the Skarbova Commission of the Grand Duchy of Lithuania. He was recommended to the Grodno headman Anthony Tizengauz and was hired as an architect of the royal estates (Baudirektor) in the Grand Duchy of Lithuania. He is also called \"The Architect of His Royal Grace in Grodno\"."
+        },
+        {
+          "year": "1775",
+          "contentText": "In the Commonwealth, Sakko received a number of military titles of the Grand Duchy of Lithuania, and in 1775 - the gentry."
+        },
+        {
+          "year": "70s — 80s of the XVIII century",
+          "contentText": "He took part in works on the most important buildings of Vilnia - the Cathedral and the Town Hall."
+        },
+        {
+          "year": "1770 — 1795",
+          "contentText": "Giuseppe de Sacco fulfilled a number of orders of local magnates, designing several famous palace and park ensembles, in particular: the Svyatsky Palace of the Volovich magnates, the Shchorsovsky palace of the Khreptovichs, and, presumably, the Tizengauz palace in Postavy, in addition, this architect is supposed to participate in the reconstruction of the Tizengauz city residence in Vilna."
+        },
+        {
+          "year": "1798",
+          "contentText": "The architect died, according to one of the hypotheses: in his own mansion, known as the Grodno House of Masons. He was buried in Grodno, at the Farny Catholic cemetery."
+        }
+      ]
+    },
+    "Victor_Karako": {
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Karako_Victor.jpg/274px-Karako_Victor.jpg",
+      "name": "Victor Karako",
+      "yol": "July 29, 1948 — present",
+      "biography": [
+        {
+          "year": "July 29, 1948",
+          "contentText": "Viktor Ivanovich Karako was born in Grodno, Belorussian SSR."
+        },
+        {
+          "year": "1966 — 1972",
+          "contentText": "Studied at the Department of Architecture of the Belarusian Polytechnic Institute."
+        },
+        {
+          "year": "1975",
+          "contentText": "Becomes a member of the Belarusian Union of Architects."
+        },
+        {
+          "year": "1972 — 1976, 1982 — 1998",
+          "contentText": "He worked as an architect, senior architect, chief architect of projects, head of a workshop at BELGOSPROEKT."
+        },
+        {
+          "year": "1976 — 1982",
+          "contentText": "Head of a group of architects, chief architect of projects, head of the BelNIIPgradostroitelstvo workshop."
+        },
+        {
+          "year": "1982",
+          "contentText": "He became a laureate of the Lenin Komsomol Prize of Belarus in the field of architecture for the project of a youth palace in Novopolotsk."
+        },
+        {
+          "year": "1998",
+          "contentText": "He began to lead his own creative workshop."
+        },
+        {
+          "year": "2003 — today",
+          "contentText": "Teaches design at the Faculty of Architecture of the Belarusian National Technical University."
+        },
+        {
+          "year": "2005 — today",
+          "contentText": "He became a member of the board of the Belarusian Union of Architects, chairman of the city organization of the BSA and a member of the City Monumental and Decorative Council."
+        }
+      ]
+    },
+    "Vladimir_Korol": {
+      "photo": "https://upload.wikimedia.org/wikipedia/ru/7/7c/Karol_VA.jpg",
+      "name": "Vladimir Korol",
+      "yol": "December 14, 1912 — May 28, 1980",
+      "biography": [
+        {
+          "year": "December 14, 1912",
+          "contentText": "Vladimir Korol was born in the city of Igumen (now Cherven, Minsk region)."
+        },
+        {
+          "year": "1931",
+          "contentText": "Graduated from the Vitebsk Art College."
+        },
+        {
+          "year": "1934 — 1941",
+          "contentText": "Vladimir Korol studied at the Faculty of Architecture of the All-Russian Academy of Arts, where at that time talented architects and teachers worked: I. Fomin, L. Rudnev, I. Langbard. Vladimir Korol successfully defended his diploma project, and immediately after graduating from the academy he enrolled in graduate school."
+        },
+        {
+          "year": "July 1941",
+          "contentText": "He joined the people's militia and, as an assistant to the military engineer of the division, took part in the defense of the city of Leningrad."
+        },
+        {
+          "year": "November 1941",
+          "contentText": "Was recalled from the front to work at the All-Russian Academy of Arts."
+        },
+        {
+          "year": "1942",
+          "contentText": "Evacuated to Central Asia together with the staff and students of the academy."
+        },
+        {
+          "year": "1945",
+          "contentText": "Vladimir Korol arrived in Minsk, liberated and destroyed by the Nazis. He was appointed head of the architectural and planning workshop of the Belgosproekt Institute, which was engaged in the implementation of one of the main tasks of post-war urban planning: the development of a planning and development project for the center of the capital of Belarus.\""
+        },
+        {
+          "year": "1946",
+          "contentText": "Vladimir Korol, in collaboration with architects Sergei Speransky and Naum Trakhtenberg, developed a project for the central part of the capital, which was conceived as a complex of architectural ensembles."
+        },
+        {
+          "year": "1950",
+          "contentText": "An All-Union open competition was announced for the project of a monument to the soldiers of the Soviet Army and Belarusian partisans in the city of Minsk. The project of Georgy Zaborsky and Vladmir Korol was recognized as the best. The sculptors Z. Azgur, A. Bembel, A. Glebov, S. Selikhanov worked with them on the creation of the monument."
+        },
+        {
+          "year": "1968",
+          "contentText": "A group of architects was awarded the State Prize of the BSSR for the creation of the avenue ensemble. Vladimir Korol was among the laureates."
+        },
+        {
+          "year": "1947",
+          "contentText": "Vladimir Korol began working as a teacher, and then as head of the urban planning department of the architectural faculty of the Belarusian Polytechnic Institute. Vladimir Korol's scientific interests are evidenced by his articles, reports, recommendations, fundamental works on urban planning."
+        },
+        {
+          "year": "1970",
+          "contentText": "Vladimir Korol was awarded the title of People's Architect of the USSR. The Belarusian State Archive of Scientific and Technical Documentation in the personal fund of Vladimir Korol contains 1011 documents that tell about the life, service and social activities of an architect and statesman: these are manuscripts of his articles, speeches, reports, photographs, personal documents stored in the fund number 51."
+        }
+      ]
+    },
+    "Leonid_Levin": {
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Levin_Leonid_Mendele.jpg/180px-Levin_Leonid_Mendele.jpg",
+      "name": "Leonid Levin",
+      "yol": "July 25, 1936 — March 1, 2014",
+      "biography": [
+        {
+          "year": "July 25, 1936",
+          "contentText": "Was born in Minsk."
+        },
+        {
+          "year": "1954 — 1960",
+          "contentText": "Levin Leonid Mendelevich studied at the Belarusian Polytechnic Institute."
+        },
+        {
+          "year": "since 1960",
+          "contentText": "Work at the Minskproekt Institute (from architect to head of the Workshop for the development of the center of Minsk)."
+        },
+        {
+          "year": "1960 — 1967",
+          "contentText": "Participated in the creation of the park. 50th anniversary of Soviet power."
+        },
+        {
+          "year": "1968",
+          "contentText": "Levin Leonid Mendelevich participated in the creation of the exhibition pavilion of the Exhibition of Economic Achievements of the BSSR in Minsk."
+        },
+        {
+          "year": "1970",
+          "contentText": "He was a member of the group of authors and was awarded the Lenin Prize for the memorial complex 1968-1969. \"Khatyn\"."
+        },
+        {
+          "year": "since 1997",
+          "contentText": "Director of his own creative workshop of the Unitary Enterprise “Creative Workshop of Architect L. Levin”."
+        },
+        {
+          "year": "March 1, 2014 ",
+          "contentText": "Died in Minsk"
+        },{
+          "year": "March 4, 2014",
+          "contentText": "He was buried in the Central Alley of the Eastern Cemetery in Minsk."
+        }
+      ]
+    }
+  }
 }
