@@ -1,4 +1,6 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import "../styles/common.css";
 
 import Translatable from './Translatable';
@@ -21,9 +23,11 @@ class Person extends Translatable {
 
         return(
             <section>
-                <p>{this.translate("persons." + personId + ".name")}</p>
-                <p>{this.translate("persons." + personId + ".surname")}</p>
-                <p>{this.translate("persons." + personId + ".yol")}</p>
+                <Container>
+                    <Image src={this.translate("persons." + personId + ".photo")}/>
+                    <p>{this.translate("persons." + personId + ".name")}</p>
+                    <p>{this.translate("persons." + personId + ".yol")}</p>
+                </Container>
             </section>
         );
     }

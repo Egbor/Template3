@@ -17,31 +17,42 @@
         "about": "О нас"
     },
 
+    "footer": {
+        "developer1": {
+            "name": "Борсуков Егор",
+            "contributer": "Участник"
+        },
+        "developer2": {
+            "name": "Семенцова Кристина",
+            "contributer": "Участник"
+        }
+    },
+
     "persons": {
-        "person_1": {
-            "name": "Деятель 1",
-            "surname": "Фамилия Деятеля 1",
-            "yol": "Годы жизни Деятеля 1"
+        "Lenina_Mironova": {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Lenina_Mironova.jpg/400px-Lenina_Mironova.jpg",
+            "name": "Миронова, Ленина Николаевна",
+            "yol": "2 марта 1931 - настоящие"
         },
-        "person_2": {
-            "name": "Деятель 2",
-            "surname": "Фамилия Деятеля 2",
-            "yol": "Годы жизни Деятеля 2"
+        "Giuseppe_de_Sacco": {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG/274px-%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG",
+            "name": "Де Сакко, Джузеппе",
+            "yol": "1735 - 1798"
         },
-        "person_3": {
-            "name": "Деятель 3",
-            "surname": "Фамилия Деятеля 3",
-            "yol": "Годы жизни Деятеля 3"
+        "Victor_Karako": {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Karako_Victor.jpg/274px-Karako_Victor.jpg",
+            "name": "Карако, Виктор Иванович",
+            "yol": "29 июля 1948 - настоящие"
         },
-        "person_4": {
-            "name": "Деятель 4",
-            "surname": "Фамилия Деятеля 4",
-            "yol": "Годы жизни Деятеля 4"
+        "Vladimir_Korol": {
+            "photo": "https://upload.wikimedia.org/wikipedia/ru/7/7c/Karol_VA.jpg",
+            "name": "Король, Владимир Адамович",
+            "yol": "14 декобря 1912 - 28 мая 1980"
         },
-        "person_5": {
-            "name": "Деятель 5",
-            "surname": "Фамилия Деятеля 5",
-            "yol": "Годы жизни Деятеля 5"
+        "Leonid_Levin": {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Levin_Leonid_Mendele.jpg/180px-Levin_Leonid_Mendele.jpg",
+            "name": "Левин, Леонид Менделевич",
+            "yol": "25 июля 1936 - 1 марта 2014"
         }
     }
 }

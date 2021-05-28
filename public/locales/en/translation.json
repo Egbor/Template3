@@ -17,31 +17,42 @@
         "about": "About"
     },
 
+    "footer": {
+        "developer1": {
+            "name": "Yegor Borsukov",
+            "contributer": "Contributer"
+        },
+        "developer2": {
+            "name": "Kristina Sementsova",
+            "contributer": "Contributer"
+        }
+    },
+
     "persons": {
-        "person_1": {
-            "name": "Person 1",
-            "surname": "Surname Person 1",
-            "yol": "Years of live Person 1"
+        "Lenina_Mironova": {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Lenina_Mironova.jpg/400px-Lenina_Mironova.jpg",
+            "name": "Lenina Mironova",
+            "yol": "March 2, 1931 - present"
         },
-        "person_2": {
-            "name": "Person 2",
-            "surname": "Surname Person 2",
-            "yol": "Years of live Person 2"
+        "Giuseppe_de_Sacco": {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG/274px-%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG",
+            "name": "Giuseppe de Sacco",
+            "yol": "1735 - 1798"
         },
-        "person_3": {
-            "name": "Person 3",
-            "surname": "Surname Person 3",
-            "yol": "Years of live Person 3"
+        "Victor_Karako": {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Karako_Victor.jpg/274px-Karako_Victor.jpg",
+            "name": "Victor Karako",
+            "yol": "July 29, 1948 - present"
         },
-        "person_4": {
-            "name": "Person 4",
-            "surname": "Surname Person 4",
-            "yol": "Years of live Person 4"
+        "Vladimir_Korol": {
+            "photo": "https://upload.wikimedia.org/wikipedia/ru/7/7c/Karol_VA.jpg",
+            "name": "Vladimir Korol",
+            "yol": "December 14, 1912 - May 28, 1980"
         },
-        "person_5": {
-            "name": "Person 5",
-            "surname": "Surname Person 5",
-            "yol": "Years of live Person 5"
+        "Leonid_Levin": {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Levin_Leonid_Mendele.jpg/180px-Levin_Leonid_Mendele.jpg",
+            "name": "Leonid Levin",
+            "yol": "July 25, 1936 - March 1, 2014"
         }
     }
 }

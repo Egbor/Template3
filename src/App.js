@@ -18,7 +18,7 @@ function App() {
         <Route path="/persons" render={() => <Persons t={t} i18n={i18n}/>}/>
         <Route path="/person" render={() => <Person t={t} i18n={i18n}/>}/>
       </Switch>
-      <Footer />
+      <Footer t={t} i18n={i18n}/>
     </div>
   );
 }
