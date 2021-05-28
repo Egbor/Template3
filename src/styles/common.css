@@ -10,6 +10,7 @@ section {
 footer {
     background: #212529;
 	height: 300px;
+    max-height: 1000px;
 }
 
 .btn {

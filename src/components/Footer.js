@@ -1,5 +1,4 @@
-import {Container} from 'react-bootstrap';
-import {Row, Col} from 'react-bootstrap';
+import React from 'react';
 import '../styles/common.css';
 
 import Translatable from "./Translatable";
