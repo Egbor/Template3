@@ -20,16 +20,6 @@ class Home extends Translatable {
     render() {
         return (
             <div className="home-wrapper">
-                {/* <section style={{background:"#EAF0CE"}}>
-                    <Container className="h-100">
-                        <Row className="h-100">
-                            <Col className="my-auto">
-                                <h1>{this.translate("home.welcom")}</h1>
-                                <h3>{this.translate("home.about")}</h3>
-                            </Col>
-                        </Row>
-                    </Container>
-                </section > */}
                 <section style={{background:"#C0C5C1"}}>
                     <Carousel className="h-100">
                         <Carousel.Item>

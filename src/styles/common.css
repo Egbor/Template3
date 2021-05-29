@@ -3,14 +3,12 @@ html, body {
 }
 
 section {
-    max-height: 1000px;
-    height: 850px;
+    min-height: 850px;
 }
 
 footer {
     background: #212529;
 	height: 300px;
-    max-height: 1000px;
 }
 
 .btn {
