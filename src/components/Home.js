@@ -56,7 +56,7 @@ class Home extends Translatable {
                                 </Row>
                                 <Row>
                                     <p className="w-100 text-justify">{this.translate("persons." + PersonsBase[PERSON_OF_THE_DAY].id + ".short")}</p>
-                                    <Button href={"/person#" + PersonsBase[PERSON_OF_THE_DAY].id} className="btn-yellow btn w-25 ml-auto">{this.translate("button.read")}</Button>
+                                    <Button href={"#/person#" + PersonsBase[PERSON_OF_THE_DAY].id} className="btn-yellow btn w-25 ml-auto">{this.translate("button.read")}</Button>
                                 </Row>
                             </Col>
                         </Row>

@@ -14,7 +14,8 @@ import PersonsBase from '../base/persons.json';
 
 class Person extends Translatable {
     getId() {
-        let personId = window.location.hash.substring(1);
+        let personId = window.location.hash.substring(window.location.hash.lastIndexOf("#") + 1);
+        console.log(personId);
         for (let i = 0; i < PersonsBase.length; i++) {
             if (PersonsBase[i].id === personId) {
                 localStorage.setItem("personId", personId);
