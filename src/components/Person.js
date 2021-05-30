@@ -48,7 +48,7 @@ class Person extends Translatable {
     }
 
     renderGallery(items) {
-        if (items.length == 0) {
+        if (items.length === 0) {
             return;
         }
 
