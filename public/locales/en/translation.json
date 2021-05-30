@@ -6,8 +6,9 @@
     "read": "Read"
   },
   "home": {
-    "welcom": "Welcom",
-    "about": "About site"
+    "aboutTitle": "About site",
+    "aboutInfo": "On this site you can find information about the great Belarusian architects of the past and present: about their biography, the place of their main activity, etc. "
+
   },
   "navbar": {
     "persons": "Persons",
@@ -67,6 +68,9 @@
           "year": "Autumn 1968",
           "contentText": "She began to teach her course \"Coloristics\" simultaneously at 4 departments of the Belarusian Theater and Art Institute: interior and equipment, design, arts and crafts and artistic processing of fabrics."
         }
+      ],
+      "gallery": [
+ 
       ]
     },
     "Giuseppe_de_Sacco": {
@@ -104,6 +108,23 @@
         {
           "year": "1798",
           "contentText": "The architect died, according to one of the hypotheses: in his own mansion, known as the Grodno House of Masons. He was buried in Grodno, at the Farny Catholic cemetery."
+        }
+      ],
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Ci%C4%85%C5%BCe%C5%84_-_pa%C5%82ac_biskup%C3%B3w_pozna%C5%84skich_03.jpg/800px-Ci%C4%85%C5%BCe%C5%84_-_pa%C5%82ac_biskup%C3%B3w_pozna%C5%84skich_03.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG/800px-%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG/1024px-%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/%C5%9Aviacak._%D0%A1%D1%8C%D0%B2%D1%8F%D1%86%D0%B0%D0%BA_%282006%29.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE.JPG/1024px-%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE.JPG"
         }
       ]
     },
@@ -154,6 +175,23 @@
         {
           "year": "2005 — today",
           "contentText": "He became a member of the board of the Belarusian Union of Architects, chairman of the city organization of the BSA and a member of the City Monumental and Decorative Council."
+        }
+      ],
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/%D0%9F%D0%9F%D0%A1_317.jpg/800px-%D0%9F%D0%9F%D0%A1_317.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Dk_lobby_novopolotsk.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/School_4_Minsk.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/DK_Novopolotsk.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/4_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0_340a.jpg/800px-4_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0_340a.jpg"
         }
       ]
     },
@@ -217,6 +255,17 @@
           "year": "1970",
           "contentText": "Vladimir Korol was awarded the title of People's Architect of the USSR. The Belarusian State Archive of Scientific and Technical Documentation in the personal fund of Vladimir Korol contains 1011 documents that tell about the life, service and social activities of an architect and statesman: these are manuscripts of his articles, speeches, reports, photographs, personal documents stored in the fund number 51."
         }
+      ],
+      "gallery": [
+        {
+          "src": "https://minsknews.by/wp-content/uploads/2020/03/ploshhad-pobedy.jpg"
+        },
+        {
+          "src": "http://minsk-old-new.com/Image/monument/memorial_victory_06-1.jpg"
+        },
+        {
+          "src": "https://citydog.by/content/editor_images/2020/05_may/09_21311/01.jpg"
+        }
       ]
     },
     "Leonid_Levin": {
@@ -265,6 +314,29 @@
         },{
           "year": "March 4, 2014",
           "contentText": "He was buried in the Central Alley of the Eastern Cemetery in Minsk."
+        }
+      ],
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Khatyn_Memorial%2C_Belarus.jpg/1024px-Khatyn_Memorial%2C_Belarus.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Khatyn_-_Villages.jpg/800px-Khatyn_-_Villages.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Khatyn_-_Wall.jpg/800px-Khatyn_-_Wall.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Belarus-Minsk-Memorial_Pit-2.jpg/800px-Belarus-Minsk-Memorial_Pit-2.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/ru/thumb/f/ff/Yanka-kupala-minsk.jpg/1024px-Yanka-kupala-minsk.jpg"
+        },
+        {
+          "src": "https://img.lookmytrips.com/images/look63t5/image-57176a00ff936708a9003ef3-5739bdea0a441-1bjjffa-lbcvr.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lenpl_03.jpg/1024px-Lenpl_03.jpg"
         }
       ]
     }

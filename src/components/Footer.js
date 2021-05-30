@@ -1,13 +1,15 @@
 import React from 'react';
+
 import '../styles/common.css';
+import '../styles/footer.css';
 
 import Translatable from "./Translatable";
 
 class Footer extends Translatable {
     render() {
         return (
-            <footer>
-                <h3 style={{color: "#FFFFFF"}}>About developers</h3>
+            <footer className="background-color-dark">
+                <h3 className="logo">Archi<span>Wiki</span></h3>
             </footer>
         )
     }

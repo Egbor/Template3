@@ -26,6 +26,33 @@
     font-size: 25px;
 }
 
+.about {
+    display: flex;
+    align-items: center;
+    min-height: 800px;
+    height: 1px;
+}
+
+.about-frame {
+    display: flex;
+    align-items: center;
+
+    max-width: 500px;
+    min-height: 500px;
+    height: 1px;
+
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.person-of-the-day h5, p {
+    color: #FFFFFF;
+}
+
+.developers {
+    color: #FFFFFF;
+}
+
 .person-of-the-day img {
     max-width: 275px;
     max-height: 385px;

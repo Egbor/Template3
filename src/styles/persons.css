@@ -1,6 +1,5 @@
 .search-form {
 	padding-top: 50px;
-	padding-bottom: 50px;
 }
 
 .search-form .form-control {
@@ -20,6 +19,10 @@
 	border-bottom-left-radius: 0;
 }
 
-.list-group {
+.persons-group {
 	width: 100%;
+}
+
+.persons-group:hover {
+	color: #FFFFFF;
 }

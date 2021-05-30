@@ -3,8 +3,11 @@ html, body {
 }
 
 footer {
-    background: #212529;
-	height: 300px;
+    height: 300px;
+}
+
+.content {
+    min-height: calc(100vh - 300px);
 }
 
 .inner-section {
@@ -14,8 +17,48 @@ footer {
     padding-right: 15px;
 }
 
+.color-title {
+    color: #f5ff54;
+}
+
+.color-title-dark {
+    color: #343a40;
+}
+
+.background-color-yellow {
+    background-color: #f5ff54;
+}
+
+.background-color-dark {
+    background-color: #343a40;
+}
+
 .text-justify {
     text-align: justify;
+}
+
+.box-shadow {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+}
+
+.btn-yellow {
+    background-color: #f5ff54;
+    border-color: #f5ff54;
+    color: #212529;
+}
+
+.btn-yellow:hover {
+    background-color: #c7d300;
+}
+
+.btn-dark {
+    background-color: #212529;
+    border-color: #212529;
+    color: #f5ff54;
+}
+
+.btn-yellow:hover {
+    background-color: #c7d300;
 }
 
 .btn {
