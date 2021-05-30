@@ -2,13 +2,20 @@ html, body {
     height: 100%;
 }
 
-section {
-    min-height: 850px;
-}
-
 footer {
     background: #212529;
 	height: 300px;
+}
+
+.inner-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-justify {
+    text-align: justify;
 }
 
 .btn {

@@ -23,11 +23,21 @@
       "contributer": "Участник"
     }
   },
+  "google-map": {
+    "url": "https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ9XlL-dtaOdfgVs5Bizuu8ddInbxYhgY"
+  },
   "persons": {
     "Lenina_Mironova": {
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Lenina_Mironova.jpg/400px-Lenina_Mironova.jpg",
       "name": "Миронова, Ленина Николаевна",
       "yol": "2 марта 1931 — настоящие",
+      "video": "https://www.youtube.com/embed/E7wJTI-1dvQ",
+      "short": "Профессор Белоруской государственной академии искусств (2003). Член общественных объединений «Белорусский союз дизайнеров», «Белорусский союз архитекторов».",
+      "location": {
+        "lang": "ru",
+        "lat": "53.8847208",
+        "lng": "27.5233292"
+      },
       "biography": [
         {
           "year": "2 марта 1931",
@@ -57,12 +67,22 @@
           "year": "Осень 1968",
           "contentText": "Начала преподавать свой курс «Колористика» одновременно на 4 кафедрах Белорусского театрально-художественного института: интерьера и оборудования, дизайна, декоративно-прикладного искусства и художественной обработки тканей."
         }
+      ],
+      "gallery": [
+ 
       ]
     },
     "Giuseppe_de_Sacco": {
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG/1280px-%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG",
       "name": "Де Сакко, Джузеппе",
       "yol": "1735 — 1798",
+      "video": "https://www.youtube.com/embed/E7wJTI-1dvQ",
+      "short": "Один из крупнейших архитекторов развитого барокко и классицизма, работавших на территории современной Беларуси, в XVIII веке. Придворный архитектор короля Станислава Августа Понятовского. Также работал в других регионах Речи Посполитой. В творчестве выделяются ансамбли дворцово-парковых резиденций.",
+      "location": {
+        "lang": "ru",
+        "lat": "53.8847208",
+        "lng": "27.5233292"
+      },
       "biography": [
         {
           "year": "1768",
@@ -88,12 +108,36 @@
           "year": "1798",
           "contentText": "Архитектор умер, согласно одной из гипотез: в собственном особняке, известном как гродненский дом масонов. Похоронен в Гродно, на фарном католическом кладбище."
         }
+      ],
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Ci%C4%85%C5%BCe%C5%84_-_pa%C5%82ac_biskup%C3%B3w_pozna%C5%84skich_03.jpg/800px-Ci%C4%85%C5%BCe%C5%84_-_pa%C5%82ac_biskup%C3%B3w_pozna%C5%84skich_03.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG/800px-%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG/1024px-%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/%C5%9Aviacak._%D0%A1%D1%8C%D0%B2%D1%8F%D1%86%D0%B0%D0%BA_%282006%29.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE.JPG/1024px-%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE.JPG"
+        }
       ]
     },
     "Victor_Karako": {
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Karako_Victor.jpg/274px-Karako_Victor.jpg",
       "name": "Карако, Виктор Иванович",
       "yol": "29 июля 1948 — настоящие",
+      "video": "https://www.youtube.com/embed/E7wJTI-1dvQ",
+      "short": "Белорусский архитектор, член правления Белорусского союза архитекторов, лауреат премии Ленинского Комсомола Белоруссии, руководитель творческой мастерской.",
+      "location": {
+        "lang": "ru",
+        "lat": "53.8847208",
+        "lng": "27.5233292"
+      },
       "biography": [
         {
           "year": "29 июля 1948",
@@ -131,12 +175,36 @@
           "year": "2005 — по сей день",
           "contentText": "Является членом правления Белорусского союза архитекторов, председателем городской организации БСА и членом Городского Монументально-декоративного Совета."
         }
+      ],
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/%D0%9F%D0%9F%D0%A1_317.jpg/800px-%D0%9F%D0%9F%D0%A1_317.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Dk_lobby_novopolotsk.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/School_4_Minsk.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/DK_Novopolotsk.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/4_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0_340a.jpg/800px-4_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0_340a.jpg"
+        }
       ]
     },
     "Vladimir_Korol": {
       "photo": "https://upload.wikimedia.org/wikipedia/ru/7/7c/Karol_VA.jpg",
       "name": "Король, Владимир Адамович",
       "yol": "14 декобря 1912 — 28 мая 1980",
+      "video": "https://www.youtube.com/embed/6H75nml2WMM",
+      "short": "Советский архитектор. Народный архитектор СССР (1970). Член ВКП(б) с 1940 года.",
+      "location": {
+        "lang": "ru",
+        "lat": "53.8847208",
+        "lng": "27.5233292"
+      },
       "biography": [
         {
           "year": "14 (27) декабря 1912",
@@ -186,12 +254,30 @@
           "year": "1970",
           "contentText": "Владимир Король был удостоен звания народного архитектора СССР. В Белорусском государственном архиве научно-технической документации в личном фонде Владимира Короля находится 1011 документов, которые рассказывают о жизни, служебной и общественной деятельности архитектора и государственного деятеля: это рукописи его статей, выступлений, докладов, фотографии, личные документы, хранящиеся в фонде № 51."
         }
+      ],
+      "gallery": [
+        {
+          "src": "https://minsknews.by/wp-content/uploads/2020/03/ploshhad-pobedy.jpg"
+        },
+        {
+          "src": "http://minsk-old-new.com/Image/monument/memorial_victory_06-1.jpg"
+        },
+        {
+          "src": "https://citydog.by/content/editor_images/2020/05_may/09_21311/01.jpg"
+        }
       ]
     },
     "Leonid_Levin": {
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Levin_Leonid_Mendele.jpg/180px-Levin_Leonid_Mendele.jpg",
       "name": "Левин, Леонид Менделевич",
       "yol": "25 июля 1936 — 1 марта 2014",
+      "video": "https://www.youtube.com/embed/217xXZC-ruc",
+      "short": "Заслуженный архитектор Республики Беларусь, Лауреат Ленинской премии и премии Ленинского комсомола, Лауреат премии Волгоградского Комсомола, дважды лауреат Государственной премии Республики Беларусь, лауреат многих престижных конкурсов и смотров архитектурных работ, Академик Международной и Белорусской Академий архитектуры, Председатель Союза белорусских еврейских общественных объединений и общин с 1991 года. ",
+      "location": {
+        "lang": "ru",
+        "lat": "53.8847208",
+        "lng": "27.5233292"
+      },
       "biography": [
         {
           "year": "25 июля 1936",
@@ -227,6 +313,29 @@
         },{
           "year": "4 марта 2014",
           "contentText": "Похоронен на Центральной аллее Восточного кладбища в Минске."
+        }
+      ],
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Khatyn_Memorial%2C_Belarus.jpg/1024px-Khatyn_Memorial%2C_Belarus.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Khatyn_-_Villages.jpg/800px-Khatyn_-_Villages.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Khatyn_-_Wall.jpg/800px-Khatyn_-_Wall.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Belarus-Minsk-Memorial_Pit-2.jpg/800px-Belarus-Minsk-Memorial_Pit-2.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/ru/thumb/f/ff/Yanka-kupala-minsk.jpg/1024px-Yanka-kupala-minsk.jpg"
+        },
+        {
+          "src": "https://img.lookmytrips.com/images/look63t5/image-57176a00ff936708a9003ef3-5739bdea0a441-1bjjffa-lbcvr.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lenpl_03.jpg/1024px-Lenpl_03.jpg"
         }
       ]
     }

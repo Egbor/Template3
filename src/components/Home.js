@@ -15,81 +15,76 @@ import "../styles/common.css";
 import "../styles/home.css";
 
 import Translatable from './Translatable'
+import PersonsBase from '../base/persons.json';
+
+const PERSON_OF_THE_DAY = 4;
 
 class Home extends Translatable {
     render() {
         return (
             <div className="home-wrapper">
-                <section style={{background:"#C0C5C1"}}>
+                <section>
                     <Carousel className="h-100">
                         <Carousel.Item>
-                                <Image src={img1} className="w-100"/>
-                            <Carousel.Caption>
-                                <h3>First slide label</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
+                            <Image src={img1} className="w-100"/>
                         </Carousel.Item>
                         <Carousel.Item>
-                                <Image src={img2} className="w-100"/>
-                            <Carousel.Caption>
-                                <h3>First slide label</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
+                            <Image src={img2} className="w-100"/>
                         </Carousel.Item>
                     </Carousel>
                 </section>
-                <section style={{background:"#7D8491"}}>
+                <section className="inner-section person-of-the-day">
                     <Container className="h-100">
                         <Row className="align-items-center h-100">
                             <Col md className="mx-auto">
-                                <img src="https://globalimpactnetwork.org/wp-content/themes/globalimpact/images/no-image-found-360x250.png" className="w-100" alt="Image"/>
+                                <Image src={this.translate("persons." + PersonsBase[PERSON_OF_THE_DAY].id + ".photo")} className="w-100" alt="https://globalimpactnetwork.org/wp-content/themes/globalimpact/images/no-image-found-360x250.png"/>
                             </Col>
                             <Col md="7" className="mx-auto">
                                 <Row>
-                                    <h3 className="w-100 text-left">First name Second name</h3>
-                                    <h5 className="w-100 text-left">Years of live</h5>
+                                    <h3 className="w-100 text-left">{this.translate("persons." + PersonsBase[PERSON_OF_THE_DAY].id + ".name")}</h3>
+                                    <h5 className="w-100 text-left">{this.translate("persons." + PersonsBase[PERSON_OF_THE_DAY].id + ".yol")}</h5>
                                 </Row>
                                 <Row>
-                                    <p className="w-100 text-left">Short information</p>
-                                    <Button className="btn btn-primary w-25 ml-auto" variant="outline-dark">{this.translate("button.read")}</Button>
+                                    <p className="w-100 text-justify">{this.translate("persons." + PersonsBase[PERSON_OF_THE_DAY].id + ".short")}</p>
+                                    <Button href={"/person#" + PersonsBase[PERSON_OF_THE_DAY].id} className="btn btn-primary w-25 ml-auto">{this.translate("button.read")}</Button>
                                 </Row>
                             </Col>
                         </Row>
                     </Container>
                 </section>
-                <section>
-                <Container className="d-flex justify-content-around h-100">
-                    <Row className="h-100">
-                        <Col md className="my-auto">
-                            <Card className="p-3 mx-auto">
-                                <span className="card-img-wrapper">
-                                    <Card.Img variant="top" src={first}/>
-                                </span>
-                                <Card.Body>
-                                    <Card.Title>{this.translate("footer.developer1.name")}</Card.Title>
-                                    <Card.Text>{this.translate("footer.developer1.contributer")}</Card.Text>
-                                    <Card.Link href="https://github.com/Egbor">
-                                        <i class="fa fa-github" aria-hidden="true"></i>
-                                    </Card.Link>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col md className="my-auto">
-                            <Card className="p-3 my-auto mx-auto">
-                                <span className="card-img-wrapper">
-                                    <Card.Img variant="top" src={second}/>
-                                </span>
-                                <Card.Body>
-                                    <Card.Title>{this.translate("footer.developer2.name")}</Card.Title>
-                                    <Card.Text>{this.translate("footer.developer2.contributer")}</Card.Text>
-                                    <Card.Link href="https://github.com/sssplinter">
-                                        <i class="fa fa-github" aria-hidden="true"></i>
-                                    </Card.Link>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
-                </Container>
+                <section className="inner-section">
+                    <Container className="d-flex justify-content-around h-100">
+                        <Row className="h-100">
+                            <Col md className="my-auto">
+                                <Card className="p-3 mx-auto">
+                                    <span className="card-img-wrapper">
+                                        <Card.Img variant="top" src={first}/>
+                                    </span>
+                                    <Card.Body>
+                                        <Card.Title>{this.translate("footer.developer1.name")}</Card.Title>
+                                        <Card.Text>{this.translate("footer.developer1.contributer")}</Card.Text>
+                                        <Card.Link href="https://github.com/Egbor">
+                                            <i class="fa fa-github" aria-hidden="true"></i>
+                                        </Card.Link>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col md className="my-auto">
+                                <Card className="p-3 my-auto mx-auto">
+                                    <span className="card-img-wrapper">
+                                        <Card.Img variant="top" src={second}/>
+                                    </span>
+                                    <Card.Body>
+                                        <Card.Title>{this.translate("footer.developer2.name")}</Card.Title>
+                                        <Card.Text>{this.translate("footer.developer2.contributer")}</Card.Text>
+                                        <Card.Link href="https://github.com/sssplinter">
+                                            <i class="fa fa-github" aria-hidden="true"></i>
+                                        </Card.Link>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                        </Row>
+                    </Container>
                 </section>
             </div>
         );

@@ -76,13 +76,13 @@ class Persons extends Translatable {
 
     render() {
         return (
-            <section>
+            <section className="inner-section">
                 <Container>
                     <Row>
                         <div className="search-form input-group justify-content-center">
                             <Form.Control type="search" id="form1" placeholder={this.translate("searchbar.placeholder")} onChange={(e) => this.onChangeSearchBox(e)} onKeyUp={(e) => this.onKeyUpSearchBox(e)}/>
                             <span>
-                                <Button className="btn btn-primary" onClick={(e) => this.onClickSearchButton(e)}>
+                                <Button className="btn-search btn btn-primary" onClick={(e) => this.onClickSearchButton(e)}>
                                     <i className="fa fa-search" aria-hidden="true"></i>
                                 </Button>
                             </span>

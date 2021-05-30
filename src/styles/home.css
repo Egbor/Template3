@@ -25,3 +25,8 @@
 .card-link {
     font-size: 25px;
 }
+
+.person-of-the-day img {
+    max-width: 275px;
+    max-height: 385px;
+}

@@ -1,4 +1,40 @@
 .person-img {
+    margin-top: 65px;
     width: 275px;
     height: 385px;
+}
+
+.person-caption {
+    line-height: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.person-map {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.person-video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.person-video span {
+    width: 100%;
+    height: 100%;
+}
+
+.person-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

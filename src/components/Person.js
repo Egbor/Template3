@@ -35,32 +35,22 @@ class Person extends Translatable {
         let personId = this.getId();
 
         const MapComponent = withScriptjs(withGoogleMap(props =>
-            <GoogleMap defaultZoom={8} defaultCenter={{ lat: -34.397, lng: 150.644 }}>
-                    <Marker position={{ lat: -34.397, lng: 150.644 }}/>
+            <GoogleMap googleMapURL={props.googleMapURL}  defaultZoom={8} defaultCenter={{ lat: props.lat, lng: props.lng}} options={{disableDefaultUI: true}}>
+                    <Marker position={{ lat: props.lat, lng: props.lng }}/>
             </GoogleMap>
         ))
-
+        
         return(
+            <div>
             <section>
                 <Container>
                     <Row>
                         <Col md="5">
                             <Image src={this.translate("persons." + personId + ".photo")} className="person-img"/>
-                            <p className="person-name">{this.translate("persons." + personId + ".name")}</p>
-                            <p className="person-years">{this.translate("persons." + personId + ".yol")}</p>
-                            <div className="person-map">
-                                <MapComponent
-                                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ9XlL-dtaOdfgVs5Bizuu8ddInbxYhgY"
-                                    loadingElement={<div style={{ height: `100%` }} />}
-                                    containerElement={<div style={{ height: `400px` }} />}
-                                    mapElement={<div style={{ height: `100%` }} />}
-                                />
+                            <div className="person-caption">
+                                <p className="person-name">{this.translate("persons." + personId + ".name")}</p>
+                                <p className="person-years">{this.translate("persons." + personId + ".yol")}</p>
                             </div>
-                            <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ' 
-                                    rameBorder='0' 
-                                    allow='autoplay; encrypted-media' 
-                                    allowFullScreen title='video'
-                            />
                         </Col>
                         <Col>
                             <Timeline>
@@ -70,6 +60,36 @@ class Person extends Translatable {
                     </Row>
                 </Container>
             </section>
+            <section className="inner-section">
+                <Container>
+                    <Row>
+                        <Col md>
+                            <div className="person-map">
+                                <MapComponent
+                                    lat = {Number(this.translate("persons." + personId + ".location.lat"))}
+                                    lng = {Number(this.translate("persons." + personId + ".location.lng"))}
+                                    googleMapURL={this.translate("google-map.url")}
+                                    loadingElement={<div style={{ height: "100%" }} />}
+                                    containerElement={<div style={{ height: "315px" }} />}
+                                    mapElement={<div style={{ height: "100%" }} />}
+                                />
+                            </div>
+                        </Col>
+                        <Col className="d-flex align-items-center">
+                            <div className="person-video">
+                                <iframe src={this.translate("persons." + personId + ".video")}
+                                    width="560"
+                                    height="315"
+                                    rameBorder='0' 
+                                    allow='autoplay; encrypted-media' 
+                                    allowFullScreen title='video'
+                                />
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+            </div>
         );
     }
 }
